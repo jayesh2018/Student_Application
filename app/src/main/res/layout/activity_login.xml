@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.tab_layout.Activities.Login_Activity">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:textColorHint="@color/colorPrimaryDark">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/usrname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Username"
+                android:paddingHorizontal="10dp"
+                android:text="jayesh" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:textColorHint="@color/colorPrimaryDark">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/passwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:paddingHorizontal="10dp"
+                android:text="jayesh"
+                android:textColorHint="@color/colorPrimaryDark" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/login_btn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:onClick="onLoginClick"
+            android:text="Login In"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorYellow" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingHorizontal="5dp"
+            android:text="Don't Have an account? Please Sign Up"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/register_btn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="onSignupClick"
+            android:text="Sign Up"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/colorYellow" />
+    </LinearLayout>
+</RelativeLayout>

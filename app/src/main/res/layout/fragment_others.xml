@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.student.DocFragments.OtherFragment">
+
+    <!--<include layout="@layout/doc_item"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/otherss"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="TextView" />-->
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/othersrv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</android.support.design.widget.CoordinatorLayout>

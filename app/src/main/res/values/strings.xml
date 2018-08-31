@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Student Application</string>
+
+    <string-array name="course">
+        <item>IT</item>
+        <item>CS</item>
+    </string-array>
+
+    <string-array name="sem">
+        <item>Sem 1</item>
+        <item>Sem 2</item>
+        <item>Sem 3</item>
+        <item>Sem 4</item>
+        <item>Sem 5</item>
+        <item>Sem 6</item>
+    </string-array>
+
+    <string-array name="doctype">
+        <item>Notes</item>
+        <item>Question Papers</item>
+        <item>Others</item>
+    </string-array>
+
+</resources>

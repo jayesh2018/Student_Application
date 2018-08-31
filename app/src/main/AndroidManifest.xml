@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.student">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".constants.Initializer"
+        android:allowBackup="true"
+        android:icon="@drawable/document_sharing"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/document_sharing_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name=".Activities.Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.Login_Activity" />
+        <activity android:name=".Activities.OTPActivity" />
+        <activity android:name=".Activities.RegisterActivity" />
+        <activity android:name=".Activities.Student_Activity" />
+        <activity android:name=".Activities.SubjectsActivity" />
+
+        <service
+            android:name=".MyIntentService"
+            android:exported="false" />
+        <service android:name=".MyService" />
+
+        <receiver
+            android:name=".MyAlarmReceiver"
+            android:process=":remote" />
+
+        <activity android:name=".Activities.DocumentActivity"></activity>
+    </application>
+
+</manifest>
