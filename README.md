@@ -8,3 +8,9 @@ Faculty Student Document Sharing is a android app to share documents between Fac
 # BUGS
 
 Bugs and suggestions should be reported at: https://github.com/jayesh2018/Student_Application/issues.
+
+# COPYRIGHT
+
+youtube-dl is released into the public domain by the copyright holders.
+
+This README file was originally written by Jayesh Marathe and is likewise released into the public domain.
