@@ -11,6 +11,4 @@ Bugs and suggestions should be reported at: https://github.com/jayesh2018/Studen
 
 # COPYRIGHT
 
-youtube-dl is released into the public domain by the copyright holders.
-
 This README file was originally written by Jayesh Marathe and is likewise released into the public domain.
